@@ -14,7 +14,7 @@ export class MyApp {
 
 
   constructor() {
-
+    // Configurações do firebase
     var config = {
       apiKey: "AIzaSyBzOgE5AXJ_Gw-G8vPW0XYIlPV-7JBQYao",
       authDomain: "smart-house-55267.firebaseapp.com",

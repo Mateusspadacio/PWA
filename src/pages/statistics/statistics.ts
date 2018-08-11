@@ -9,6 +9,9 @@ import { UserServiceProvider } from './../../providers/user-service/user-service
 import { StatisticsService } from '../../providers/statistics-service/statistics.service';
 import { Statistics } from '../../models/statistics';
 
+/*
+  Componente responsável por iniciar os graficos na tela do app
+*/
 @IonicPage()
 @Component({
   selector: 'page-statistics',

@@ -3,6 +3,7 @@ import { BaseChartDirective } from 'ng2-charts';
 
 import { Chart } from './../../models/charts/chart-configuration';
 
+// É o componente grafico onde são exibidos os valores
 @Component({
   selector: 'chart',
   templateUrl: 'chart.component.html'

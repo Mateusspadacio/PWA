@@ -1,0 +1,4 @@
+Os providers nada mais são que os serviços da aplicação,
+eles são responsáveis por enviar as requisições http para 
+a api e retornar os dados para que eles possam ser tratados
+e renderizados na tela.

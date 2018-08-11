@@ -4,6 +4,11 @@ import { Injectable } from "@angular/core";
 import { Observable } from "rxjs/Rx";
 import { HttpInterceptor, HttpRequest, HttpHandler, HttpEvent, HTTP_INTERCEPTORS } from "@angular/common/http";
 
+/*
+    Serviço responsável por interceptar todas as requisições http que 
+    entram e saem da aplicação, dessa forma é possivel centralizar a
+    injeção do token no cabeçalho e verificar a autenticidade do token
+*/
 @Injectable()
 export class AuthInterceptor implements HttpInterceptor {
 

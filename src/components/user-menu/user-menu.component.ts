@@ -3,6 +3,11 @@ import { Component } from '@angular/core';
 import { BaseComponent } from '../base.component';
 import { App } from 'ionic-angular';
 
+/*
+  Menu lateral de navegação do usuário, as paginas e seus respectivos
+  componentes são declarados em um objeto onde quando clicado navega para
+  a outra pagina
+*/
 @Component({
   selector: 'user-menu',
   templateUrl: 'user-menu.component.html'

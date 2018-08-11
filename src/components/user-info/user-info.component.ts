@@ -3,11 +3,14 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
 import { ImageValidator } from './../../utils/image-validator';
 import { FeedBackService } from './../../providers/feedback/feedback.service';
 import { UserServiceProvider } from '../../providers/user-service/user-service';
-import { User } from '../../models/users';
 import { AssetsService } from '../../providers/assets-firebase/assets.service';
 import { LocalStorageServiceProvider } from '../../providers/local-storage-service/local-storage-service';
 
 
+/*
+  Componente onde é exibido a foto do usuário e tambem 
+  é possivel atualizar a foto do usuário
+*/
 @Component({
   selector: 'user-info',
   templateUrl: 'user-info.component.html'

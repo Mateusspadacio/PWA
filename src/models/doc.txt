@@ -1,0 +1,3 @@
+Os models nada mais são do que modelos representacionais de dados,
+como os objetos em Java, onde é possivel organizar os dados em objetos 
+que os representam e dessa forma manipula-los mais facilmente.

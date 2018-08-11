@@ -1,4 +1,3 @@
-import { App } from 'ionic-angular';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { JwtHelper } from "angular2-jwt";
