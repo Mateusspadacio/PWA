@@ -1,0 +1,24 @@
+<ion-header>
+  <custom-header [title]="'Estatísticas'"></custom-header>
+</ion-header>
+
+<ion-content padding>
+  <div padding>
+    <ion-grid>
+      <ion-row>
+        <ion-col col-lg-6>
+          <chart [chart]="energyChart" [icon]="'flash'"></chart>
+        </ion-col>
+        <ion-col col-lg-6>
+          <chart [chart]="waterChart" [icon]="'water'"></chart>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+  <ion-item col-lg-4>
+    <ion-label>Ano</ion-label>
+    <ion-select [(ngModel)]="year" (ionChange)="doFilter()">
+      <ion-option *ngFor="let y of years" [value]="y">{{y}}</ion-option>
+    </ion-select>
+  </ion-item>
+</ion-content>
